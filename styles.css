@@ -1,0 +1,105 @@
+.head{
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    height: fit-content;
+    color: white;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.head a{
+    text-align: center;
+    padding: 10px 12px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.head a:hover{
+    text-decoration: underline;
+    color: darkkhaki;
+    font-size: 20px;
+}
+#icon{
+    display: flex;
+}
+#list{
+    display: flex;
+    list-style-type: none;
+
+}
+body{
+    background-image: url('images/back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#phone{
+    padding: 40px;
+    margin-top: 20px;
+}
+main{
+    padding: 30px;
+    display:flex;
+}
+.para h1{
+    margin-top: 200px;
+    font-size: 3rem;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#button{
+    padding: 15px;
+    border-radius: 15px;
+}
+#buttn{
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 12rem;
+}
+#cnt2{
+    justify-content: space-between;
+    gap: 20%;
+}
+#sub2{
+    background-color: black;   
+}
+
+.three{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+
+}
+#four{
+    justify-content: center;
+    padding: 15px;
+}
+
+#next li{
+    font-size: 2rem;
+    list-style: none;
+}
+.foo, .foo1{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size:20px;
+
+}
+
+.foo1 h2{
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+div ul{
+    list-style-type: none;
+}
+.img{
+    display: flex;
+}
+
+.sec{
+    padding:70px;
+    gap:10%;
+}
